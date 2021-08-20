@@ -40,7 +40,6 @@ const InputField = () => {
 
   const handleInputChange = event => {
     const value = event.target.value;
-    console.log(value, "qqqq====");
     setInputValue(value);
   };
 
